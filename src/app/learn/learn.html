@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2" style="background-color:rgba(245, 245, 245, 0.57)">
+            <ul class="sidebar">
+                <li><a ui-sref="learn.item1">English</a></li>
+                <li class="text-right"><a ui-sref="learn.item1.1">Basic Grammar</a></li>
+                <li class="text-right"><a ui-sref="learn.item1.2">Poems</a></li>
+                <li><a ui-sref="learn.item2">Maths</a></li>
+                <li class="text-right"><a ui-sref="learn.item2.1">Simple Arithmetic</a></li>
+                <li class="text-right"><a ui-sref="learn.item2.2">Fun with numbers</a></li>
+                <li><a ui-sref="learn.item3">Science</a></li>
+                <li class="text-right"><a ui-sref="learn.item3.1">Great Scientists</a></li>
+                <li class="text-right"><a ui-sref="learn.item3.2">How stuff works</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div ui-view>
+                <h1> Learn </h1>
+            </div>
+        </div>
+    </div>
+</div>
